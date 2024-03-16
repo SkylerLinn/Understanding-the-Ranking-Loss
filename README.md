@@ -33,18 +33,23 @@ The realization file of BCE method is named as `DCNv2PosWeight.py`, you can run 
 The contents of this yaml entail an exploration across six distinct levels of sparsity, with each experiment being repeated five times.
 
  - Combined-Pair
+
  ```python3 run_param_tuner.py  --config ./config/criteo_x1/DCNv2_criteo_x1_poswall_sample_tuner.yaml --gpu 0 1 2 3 4```
 
 - JRC
+
  ```python3 run_param_tuner.py  --config ./config/criteo_x1/DCNv2_criteo_x1_posw0.1_jrc_alpha0.4_rerun_tuner.yaml --gpu 0 1 2 3 4```
 
 - RCR (ListCE)
+
  ```python3 run_param_tuner.py  --config ./config/criteo_x1/DCNv2_criteo_x1_posw0.1_listce_alpha0.9.yaml --gpu 0 1 2 3 4```
 
 - Combined-List
+
  ```python3 run_param_tuner.py  --config ./config/criteo_x1/DCNv2_criteo_x1_posw0.1_combined_list_alpha0.9.yaml --gpu 0 1 2 3 4```
 
 - Focal Loss
+
  ```python3 run_param_tuner.py  --config ./config/criteo_x1/DCNv2_criteo_x1_posw0.1_focal_gamma_tuner1.yaml --gpu 0 1 2 3 4```
 
 ## Analysing
@@ -53,7 +58,9 @@ The project conducted a comprehensive experimental analysis, with the correspond
 ## Citation
 If you find our code or propcessed data helpful in your research, please kindly cite the following papers.
 > Coming soon
+
 Our code is based on the FuxiCTR and BARS.
 > Jieming Zhu, Jinyang Liu, Shuai Yang, Qi Zhang, Xiuqiang He. [Open Benchmarking for Click-Through Rate Prediction](https://arxiv.org/abs/2009.05794). The 30th ACM International Conference on Information and Knowledge Management (CIKM), 2021.
+
 > Jieming Zhu, Quanyu Dai, Liangcai Su, Rong Ma, Jinyang Liu, Guohao Cai, Xi Xiao, Rui Zhang. [BARS: Towards Open Benchmarking for Recommender Systems](https://arxiv.org/abs/2009.05794). The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2022.
  
