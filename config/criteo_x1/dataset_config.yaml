@@ -1,0 +1,198 @@
+### Tiny data for tests only
+tiny_h5:
+    data_root: ../../data/
+    data_format: h5
+    train_data: ../../data/tiny_h5/train.h5
+    valid_data: ../../data/tiny_h5/valid.h5
+    test_data: ../../data/tiny_h5/test.h5
+
+criteo_x1:
+    data_root: ../../data/
+    data_format: csv
+    train_data: ../../data/criteo_x1/train.csv
+    valid_data: ../../data/criteo_x1/valid.csv
+    test_data: ../../data/criteo_x1/test.csv
+    feature_cols:
+    -   active: true
+        dtype: float
+        name: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
+        type: numeric
+    -   active: true
+        dtype: float
+        name: [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16,
+            C17, C18, C19, C20, C21, C22, C23, C24, C25, C26]
+        type: categorical
+    label_col: {dtype: float, name: label}
+    min_categr_count: 1
+
+criteo_x1_0.1:
+    data_root: ../../data/
+    data_format: csv
+    train_data: ../../data/criteo_x1_0.1/train.csv
+    valid_data: ../../data/criteo_x1_0.1/valid.csv
+    test_data: ../../data/criteo_x1_0.1/test.csv
+    feature_cols:
+    -   active: true
+        dtype: float
+        name: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
+        type: numeric
+    -   active: true
+        dtype: float
+        name: [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16,
+            C17, C18, C19, C20, C21, C22, C23, C24, C25, C26]
+        type: categorical
+    label_col: {dtype: float, name: label}
+    min_categr_count: 1
+
+criteo_x1_0.2:
+    data_root: ../../data/
+    data_format: csv
+    train_data: ../../data/criteo_x1_0.2/train.csv
+    valid_data: ../../data/criteo_x1_0.2/valid.csv
+    test_data: ../../data/criteo_x1_0.2/test.csv
+    feature_cols:
+    -   active: true
+        dtype: float
+        name: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
+        type: numeric
+    -   active: true
+        dtype: float
+        name: [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16,
+            C17, C18, C19, C20, C21, C22, C23, C24, C25, C26]
+        type: categorical
+    label_col: {dtype: float, name: label}
+    min_categr_count: 1
+
+criteo_x1_0.3:
+    data_root: ../../data/
+    data_format: csv
+    train_data: ../../data/criteo_x1_0.3/train.csv
+    valid_data: ../../data/criteo_x1_0.3/valid.csv
+    test_data: ../../data/criteo_x1_0.3/test.csv
+    feature_cols:
+    -   active: true
+        dtype: float
+        name: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
+        type: numeric
+    -   active: true
+        dtype: float
+        name: [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16,
+            C17, C18, C19, C20, C21, C22, C23, C24, C25, C26]
+        type: categorical
+    label_col: {dtype: float, name: label}
+    min_categr_count: 1
+
+criteo_x1_0.4:
+    data_root: ../../data/
+    data_format: csv
+    train_data: ../../data/criteo_x1_0.4/train.csv
+    valid_data: ../../data/criteo_x1_0.4/valid.csv
+    test_data: ../../data/criteo_x1_0.4/test.csv
+    feature_cols:
+    -   active: true
+        dtype: float
+        name: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
+        type: numeric
+    -   active: true
+        dtype: float
+        name: [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16,
+            C17, C18, C19, C20, C21, C22, C23, C24, C25, C26]
+        type: categorical
+    label_col: {dtype: float, name: label}
+    min_categr_count: 1
+
+criteo_x1_0.5:
+    data_root: ../../data/
+    data_format: csv
+    train_data: ../../data/criteo_x1_0.5/train.csv
+    valid_data: ../../data/criteo_x1_0.5/valid.csv
+    test_data: ../../data/criteo_x1_0.5/test.csv
+    feature_cols:
+    -   active: true
+        dtype: float
+        name: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
+        type: numeric
+    -   active: true
+        dtype: float
+        name: [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16,
+            C17, C18, C19, C20, C21, C22, C23, C24, C25, C26]
+        type: categorical
+    label_col: {dtype: float, name: label}
+    min_categr_count: 1
+
+criteo_x1_0.6:
+    data_root: ../../data/
+    data_format: csv
+    train_data: ../../data/criteo_x1_0.6/train.csv
+    valid_data: ../../data/criteo_x1_0.6/valid.csv
+    test_data: ../../data/criteo_x1_0.6/test.csv
+    feature_cols:
+    -   active: true
+        dtype: float
+        name: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
+        type: numeric
+    -   active: true
+        dtype: float
+        name: [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16,
+            C17, C18, C19, C20, C21, C22, C23, C24, C25, C26]
+        type: categorical
+    label_col: {dtype: float, name: label}
+    min_categr_count: 1
+
+
+criteo_x1_0.7:
+    data_root: ../../data/
+    data_format: csv
+    train_data: ../../data/criteo_x1_0.7/train.csv
+    valid_data: ../../data/criteo_x1_0.7/valid.csv
+    test_data: ../../data/criteo_x1_0.7/test.csv
+    feature_cols:
+    -   active: true
+        dtype: float
+        name: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
+        type: numeric
+    -   active: true
+        dtype: float
+        name: [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16,
+            C17, C18, C19, C20, C21, C22, C23, C24, C25, C26]
+        type: categorical
+    label_col: {dtype: float, name: label}
+    min_categr_count: 1
+
+criteo_x1_0.8:
+    data_root: ../../data/
+    data_format: csv
+    train_data: ../../data/criteo_x1_0.8/train.csv
+    valid_data: ../../data/criteo_x1_0.8/valid.csv
+    test_data: ../../data/criteo_x1_0.8/test.csv
+    feature_cols:
+    -   active: true
+        dtype: float
+        name: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
+        type: numeric
+    -   active: true
+        dtype: float
+        name: [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16,
+            C17, C18, C19, C20, C21, C22, C23, C24, C25, C26]
+        type: categorical
+    label_col: {dtype: float, name: label}
+    min_categr_count: 1
+
+criteo_x1_0.9:
+    data_root: ../../data/
+    data_format: csv
+    train_data: ../../data/criteo_x1_0.9/train.csv
+    valid_data: ../../data/criteo_x1_0.9/valid.csv
+    test_data: ../../data/criteo_x1_0.9/test.csv
+    feature_cols:
+    -   active: true
+        dtype: float
+        name: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
+        type: numeric
+    -   active: true
+        dtype: float
+        name: [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16,
+            C17, C18, C19, C20, C21, C22, C23, C24, C25, C26]
+        type: categorical
+    label_col: {dtype: float, name: label}
+    min_categr_count: 1

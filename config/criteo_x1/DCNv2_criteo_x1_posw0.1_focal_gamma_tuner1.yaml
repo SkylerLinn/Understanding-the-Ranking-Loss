@@ -1,0 +1,10 @@
+base_config: config/criteo_x1
+base_expid: DCNv2_criteo_x1_posw0.1_focal_gamma1
+dataset_id: criteo_x1
+
+tuner_space:
+    model_root: './Criteo/DCNv2_criteo_x1_posw0.1_focal_gamma_tuner1'
+    seed: [2020,2021,2022,2023,2024]
+    gamma: [1,1.5,2,2.5,3,3.5,4,5,6,7,8,9]
+
+    

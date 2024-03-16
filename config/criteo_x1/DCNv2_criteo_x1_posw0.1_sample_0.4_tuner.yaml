@@ -1,0 +1,9 @@
+base_config: config/criteo_x1
+base_expid: DCNv2_criteo_x1_posw0.1_sample_0.4
+dataset_id: criteo_x1_0.4
+
+tuner_space:
+    model_root: './Criteo/DCNv2_criteo_x1_posw0.1_sample_0.4'
+    seed: [2020,2021,2022,2023,2024]
+
+    

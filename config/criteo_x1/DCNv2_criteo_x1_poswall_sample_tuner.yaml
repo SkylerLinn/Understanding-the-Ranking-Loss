@@ -1,0 +1,9 @@
+base_config: config/criteo_x1
+base_expid: DCNv2_criteo_x1_posw0.2_combinedpair_alpha0.6
+dataset_id: criteo_x1
+
+tuner_space:
+    model_root: './Criteo/DCNv2_criteo_x1_poswall_sample_tuner'
+    seed: [2020,2021,2022,2023,2024]
+    pos_weight: [0.1,0.2,0.4,0.6,0.8]
+    alpha: [0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]

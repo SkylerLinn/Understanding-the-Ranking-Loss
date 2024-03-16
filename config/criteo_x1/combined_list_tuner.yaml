@@ -1,0 +1,9 @@
+base_config: config/criteo_x1
+base_expid: DCNv2_criteo_x1_posw0.1_combined_list_alpha1
+dataset_id: criteo_x1
+
+tuner_space:
+    model_root: './Criteo/DCNv2_Combined_List_Tuner1'
+    pos_weight: [0.1,1]
+    alpha: [0,0.01,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,0.99,1]
+    

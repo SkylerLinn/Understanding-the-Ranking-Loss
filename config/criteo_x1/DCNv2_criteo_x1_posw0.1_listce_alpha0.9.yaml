@@ -1,0 +1,10 @@
+base_config: config/criteo_x1
+base_expid: DCNv2_criteo_x1_posw0.1_listce_alpha1
+dataset_id: criteo_x1
+# DCNv2_criteo_x1_posw0.1_listce_alpha1_022_7d324346
+tuner_space:
+    model_root: './Criteo/DCNv2_criteo_x1_posw0.1_listce_alpha0.9'
+    seed: [2020,2021,2022,2023,2024]
+    alpha: 0.9
+
+    

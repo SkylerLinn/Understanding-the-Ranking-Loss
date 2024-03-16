@@ -1,0 +1,11 @@
+base_config: config/criteo_x1
+base_expid: DCNv2_criteo_x1_posw0.1_combinedpair_alpha0.7
+dataset_id: criteo_x1
+
+tuner_space:
+    model_root: './Criteo/combined_pair_param_tuner_rerun'
+    pos_weight: [0.1,1]
+    alpha: [0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]
+    seed: [2020,2021,2022,2023,2024]
+
+    
