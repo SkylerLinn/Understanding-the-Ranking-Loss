@@ -55,7 +55,8 @@ The project conducted a comprehensive experimental analysis, with the correspond
 
 ## Citation
 If you find our code or propcessed data helpful in your research, please kindly cite the following papers.
-> @misc{lin2024understanding,
+```
+@misc{lin2024understanding,
       title={Understanding the Ranking Loss for Recommendation with Sparse User Feedback}, 
       author={Zhutian Lin and Junwei Pan and Shangyu Zhang and Ximei Wang and Xi Xiao and Shudong Huang and Lei Xiao and Jie Jiang},
       year={2024},
@@ -63,7 +64,7 @@ If you find our code or propcessed data helpful in your research, please kindly 
       archivePrefix={arXiv},
       primaryClass={cs.IR}
 }
-
+```
 Our code is based on the FuxiCTR and BARS.
 > Jieming Zhu, Jinyang Liu, Shuai Yang, Qi Zhang, Xiuqiang He. [Open Benchmarking for Click-Through Rate Prediction](https://arxiv.org/abs/2009.05794). The 30th ACM International Conference on Information and Knowledge Management (CIKM), 2021.
 
